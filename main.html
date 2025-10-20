@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>UFC Fórum</title>
+        <link rel="stylesheet" href="../CSS/style.css">
+    </head>
+    <body>
+        <div class="page-wrap">
+            <header class="retro-header">
+                <div class="header-inner">
+                    <div class="logo">
+                        <h1>UFC • Fórum</h1>
+                    </div>
+                    <div class="toplinks">
+                        <a href="../HTML/intro.html">Intro</a> |
+                        <a href="../HTML/info.html">Informações</a>
+                    </div>
+                </div>
+                <marquee class="marquee">Bem-vindo ao Fórum UFC — discuta com respeito • exporte/importe seus posts</marquee>
+            </header>
+
+            <div class="container">
+                <main class="forum">
+                    <section class="threads">
+                        <h2>Tópicos Recentes</h2>
+                        <table class="thread-table" id="threadsTable">
+                            <thead>
+                                <tr><th>Tópico</th><th>Respostas</th><th>Última atividade</th></tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+
+                        <form id="newThreadForm">
+                            <input id="threadTitle" placeholder="Título do tópico" required>
+                            <input id="threadAuthor" placeholder="Seu nick" required>
+                            <textarea id="threadContent" placeholder="Escreva sua mensagem" required></textarea>
+                            <button type="submit">Criar tópico</button>
+                        </form>
+                    </section>
+
+                    <!-- destaque removido por solicitação -->
+                    
+                    <section id="info" class="panel">
+                        <h3>Sobre o UFC — resumo</h3>
+                        <h4>História</h4>
+                        <p>O Ultimate Fighting Championship (UFC) foi fundado em 1993 nos Estados Unidos com o objetivo inicial de comparar estilos de luta em confrontos diretos. Com o tempo, passou por regulamentação e padronização, tornando-se a principal organização de MMA do mundo.</p>
+                        <h4>Regras básicas</h4>
+                        <ul>
+                            <li>Combates normalmente com 3 rounds de 5 minutos; 5 rounds para disputas de título.</li>
+                            <li>Variações por promoção e atualizações — proibições incluem mordidas, puxões de cabelo e golpes a áreas proibidas.</li>
+                            <li>Vitória por nocaute, finalização (submissão) ou decisão dos juízes.</li>
+                        </ul>
+                        <h4>Categorias (exemplos)</h4>
+                        <p>Galo, Leve, Meio-médio, Médio, Meio-pesado e Pesado — valores podem variar com atualizações oficiais.</p>
+                    </section>
+                </main>
+            </div>
+
+            <footer class="retro-footer">
+                <p>Mauricio Nº28 Gustasvo Nº42</p>
+            </footer>
+        </div>
+
+        <script src="../JS/forum.js"></script>
+    </body>
+</html>
