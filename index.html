@@ -16,22 +16,24 @@
         }
 
         .main {
-            background-color: #007bff00; /* Cor de fundo do botão */
-        color: white; /* Cor do texto */
-        padding: 10px 20px; /* Espaçamento interno */
-        border: none; /* Remove a borda padrão */
-        border-radius: 5px; /* Cantos arredondados */
-        text-decoration: none; /* Remove o sublinhado do link */
-       
-        display: inline-block; /* Permite a aplicação de padding e margens */
-        width: 2000px;
-        height: 2000px;
+            background-color: transparent;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            /* reduzido para um tamanho razoável */
+            width: 200px;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <a href="info.html" class="main"></a>
+    <!-- use ./info.html para deixar explícito que é o arquivo no mesmo diretório -->
+    <a href="./info.html" class="main">Entrar</a>
 </body>
 </html>
-
-
